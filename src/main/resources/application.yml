@@ -1,0 +1,11 @@
+#remember properties file overides YAML file
+my-config:
+  app-name: Neals Application
+  app-description: ${my-config.app-name} is a Spring Boot App
+  admin-first-name: Neal
+  admin-last-name: Weinstein
+  adminEmail: nealweinstein@gmail.com
+valueFromYAMLFile:
+  msg: "hello from YAML config"
+  foo: "foo"
+  bar: "bar"
